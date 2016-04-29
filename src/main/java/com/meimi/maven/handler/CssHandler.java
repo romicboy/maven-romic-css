@@ -24,7 +24,7 @@ public class CssHandler {
 			for (Entry<String, String> entry : attribute.entrySet()) {
 				String key = entry.getKey().trim();
 				String value = entry.getValue().trim();
-				if (value.length() > 2 && value.substring(value.length() - 2).equals("px")) {
+				if (0 != value.indexOf("px")) {
 					String[] split = value.split(" ");
 					StringBuffer stringBuffer = new StringBuffer();
 					for (String string : split) {
@@ -78,7 +78,7 @@ public class CssHandler {
 		List<CssEntity> arrayList = null;
 		try {
 			String string = IOUtils.toString(new FileInputStream(file)).trim();
-			arrayList = fromCss(string);
+			arrayList = this.fromCss(string);
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		} catch (IOException e) {
