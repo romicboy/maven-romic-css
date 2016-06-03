@@ -63,7 +63,7 @@ public class CssHandler {
 				if (null != string3 && !string3.isEmpty()) {
 					string3 = string3.trim();
 					if (!string3.isEmpty()) {
-						String[] split3 = string3.split(":");
+						String[] split3 = string3.split(":", 2);
 						map.put(split3[0].trim(), split3[1].trim());
 					}
 				}
