@@ -56,7 +56,7 @@
 						<manifest>
 							<addClasspath>true</addClasspath>
 							<classpathPrefix>lib/</classpathPrefix>
-							<mainClass>com.meimi.maven.main.Main</mainClass>
+							<mainClass>com.romic.maven.main.Main</mainClass>
 						</manifest>
 					</archive>
 				</configuration>
@@ -73,7 +73,7 @@
 					</descriptorRefs>
 					<archive>
 						<manifest>
-							<mainClass>com.meimi.maven.main.Main</mainClass>
+							<mainClass>com.romic.maven.main.Main</mainClass>
 						</manifest>
 					</archive>
 				</configuration>
