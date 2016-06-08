@@ -7,8 +7,8 @@ import java.util.List;
 
 import org.apache.commons.io.IOUtils;
 
+import com.romic.maven.entity.CssEntity;
 import com.romic.maven.handler.CssHandler;
-import com.romic.maven.main.entity.CssEntity;
 
 public class Main {
 

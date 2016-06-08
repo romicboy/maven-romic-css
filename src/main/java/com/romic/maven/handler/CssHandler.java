@@ -12,7 +12,7 @@ import java.util.Map.Entry;
 
 import org.apache.commons.io.IOUtils;
 
-import com.romic.maven.main.entity.CssEntity;
+import com.romic.maven.entity.CssEntity;
 
 public class CssHandler {
 

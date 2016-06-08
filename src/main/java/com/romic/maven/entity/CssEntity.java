@@ -1,4 +1,4 @@
-package com.romic.maven.main.entity;
+package com.romic.maven.entity;
 
 import java.util.Map;
 
